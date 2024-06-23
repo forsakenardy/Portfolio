@@ -20,7 +20,7 @@
     background-color: rgba(0, 0, 0, 0.85);
     width: 60vw;
     margin-left: 5vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding-right: 2vw;
     text-align: end;
     animation-delay: 2.5s;
@@ -143,7 +143,7 @@ h4 {
 }
 .all-info {
     position: fixed;
-    height: 45vh;
+    height: 50vh;
     width: 55vw;
     text-align: start;
     padding-left: 5vw;
