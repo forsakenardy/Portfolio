@@ -1,0 +1,152 @@
+.main {
+    width: 100vw;
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+@keyframes mainin {
+
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.me {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 60vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    padding-right: 2vw;
+    text-align: end;
+    animation-delay: 2.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+    animation-name: mainin;
+    opacity: 0;
+}
+
+.photo {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 120vh;
+    width: 14vw;
+    position: absolute;
+    top: -15vh;
+    right: -20vw;
+    transform: rotate(15deg);
+    z-index: 2;
+    overflow: hidden;
+    animation-duration: 2s, 1.4s;
+    animation-name: slidein, shadowOpacity;
+    animation-fill-mode: forwards, forwards;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: 1, infinite;
+    box-shadow: -1px 5px 69px -18px rgba(30,30,186,1);
+}
+
+@keyframes slidein {
+    0% {
+        right: -20vw;
+        
+    }
+
+    30% {
+        right: 20vw;
+        
+    }
+
+    100% {
+        right: 5vw;
+    }
+}
+
+@keyframes shadowOpacity {
+
+    0%,
+    100% {
+        box-shadow: -1px 5px 69px -18px rgba(30,30,186,1);
+    }
+
+    50% {
+        box-shadow: -1px 5px 69px -18px rgba(30,30,186,0.5);
+    }
+}
+
+.my-photo {
+    width: 25vw;
+    display: block;
+    position: absolute;
+    top: 2vh;
+    right: -5vw;
+    transform: rotate(-15deg);
+    filter: drop-shadow(-8px 1px 11px rgba(0, 0, 0, 0.75));
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.photo.show-my-photo .my-photo {
+    opacity: 1;
+}
+
+.contact-info {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.photo.show-contact-info .contact-info {
+    opacity: 1;
+}
+
+.contact {
+    margin-top: 70vh;
+    margin-left: 10px;
+    transform: rotate(-15deg);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    align-items: center;
+    transform: rotate(-15deg);
+}
+
+h4 {
+    transform: rotate(-15deg);
+}
+
+.linkedin {
+    width: 25%;
+}
+
+.instagram {
+    width: 12%;
+    height: 55%;
+}
+
+.contact-info>* {
+    opacity: 0;
+    /* Inicia con opacidad 0 */
+    transition: opacity 0.5s ease-in-out;
+    /* Transición suave de opacidad */
+}
+
+/* Mostrar los elementos cuando .photo tiene la clase .show-contact-info */
+.photo.show-contact-info .contact-info>* {
+    opacity: 1;
+    /* Hace visible los elementos cuando .photo tiene la clase .show-contact-info */
+}
+.all-info {
+    position: fixed;
+    height: 45vh;
+    width: 55vw;
+    text-align: start;
+    padding-left: 5vw;
+    overflow-y: auto;
+    
+}

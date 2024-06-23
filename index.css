@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-49.gif");
+background-size:25%;
+    color: white;
+    overflow: hidden;
+}
+a {
+    color:  rgba(30,30,186,1);
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+}
+h3 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 32px;
+    color: rgba(30,30,186,1);
+    animation-name: colorOpacity;
+    animation-duration:1.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes colorOpacity {
+
+    0%,
+    100% {
+        color:rgba(30,30,186,1);
+    }
+
+    50% {
+        color:rgba(30,30,186,0.5);
+    }
+}
+
+
+.header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:10vh;
+    background-color: rgba(164, 164, 164, 0.15);background-color:  rgba(0, 0, 0, 0.7);    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 30px;
+    animation-duration: 2s;
+    animation-name: headerin ;
+}
+@keyframes headerin {
+
+from{
+    left: -100vw;
+}
+to {
+    left:0;
+}
+}
+.my-photo {
+    width: 40vw;
+    
+}
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border: 12px solid;
+    border-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-49.gif") 140 round; 
+}

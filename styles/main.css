@@ -1,0 +1,13 @@
+.main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.me {
+    background-color: brown;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.photo {
+}
