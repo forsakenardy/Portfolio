@@ -6,11 +6,13 @@
     flex-direction: row;
     position: fixed;
 }
+
 @keyframes mainin {
 
-    from{
+    from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -25,7 +27,7 @@
     text-align: end;
     animation-delay: 2.5s;
     animation-duration: 2s;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
     animation-name: mainin;
     opacity: 0;
 }
@@ -45,18 +47,18 @@
     animation-fill-mode: forwards, forwards;
     animation-timing-function: ease-in-out, ease-in-out;
     animation-iteration-count: 1, infinite;
-    box-shadow: -1px 5px 69px -18px rgba(30,30,186,1);
+    box-shadow: -1px 5px 69px -18px rgba(30, 30, 186, 1);
 }
 
 @keyframes slidein {
     0% {
         right: -20vw;
-        
+
     }
 
     30% {
         right: 20vw;
-        
+
     }
 
     100% {
@@ -68,11 +70,11 @@
 
     0%,
     100% {
-        box-shadow: -1px 5px 69px -18px rgba(30,30,186,1);
+        box-shadow: -1px 5px 69px -18px rgba(30, 30, 186, 1);
     }
 
     50% {
-        box-shadow: -1px 5px 69px -18px rgba(30,30,186,0.5);
+        box-shadow: -1px 5px 69px -18px rgba(30, 30, 186, 0.5);
     }
 }
 
@@ -125,6 +127,7 @@
     width: 75%;
     margin-bottom: 6px;
 }
+
 .mail {
     width: 27%;
     margin-bottom: 6px;
@@ -142,6 +145,7 @@
     opacity: 1;
     /* Hace visible los elementos cuando .photo tiene la clase .show-contact-info */
 }
+
 .all-info {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
@@ -154,13 +158,48 @@
     padding-right: 20px;
     overflow-y: auto;
     scrollbar-width: thin;
-    scrollbar-color: white rgba(30,30,186,0.5);    
+    scrollbar-color: white rgba(30, 30, 186, 0.5);
 }
+
 .contacts a {
     display: flex;
     justify-content: center;
 }
+
 .contact-info h4 {
     margin-left: 10px;
 }
 
+.helm {
+    position: absolute;
+    top: 13.2vh;
+    left: 2.3vw;
+    rotate: -11deg;
+    width: 140px;
+    opacity: 1;
+    animation-duration: 5s;
+    animation-name: appear;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.helm:hover {
+    opacity: 0;
+    transition-duration: 1s;
+
+}
