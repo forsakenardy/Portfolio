@@ -37,7 +37,7 @@
     height: 120vh;
     width: 210px;
     position: absolute;
-    top: -15vh;
+    top: -100px;
     right: -20vw;
     transform: rotate(15deg);
     background-color: none;
@@ -77,11 +77,11 @@
 
     0%,
     100% {
-        box-shadow: -1px 5px 69px -18px rgba(30, 30, 186, 1);
+        box-shadow: -1px 5px 69px -15px rgba(30, 30, 186, 1);
     }
 
     50% {
-        box-shadow: -1px 5px 69px -18px rgba(30, 30, 186, 0.5);
+        box-shadow: -1px 5px 69px 15px rgba(30, 30, 186, 0.3);
     }
 }
 
@@ -89,8 +89,8 @@
     width: 380px;
     display: block;
     position: absolute;
-    top: 2vh;
-    right: -5vw;
+    top: 10px;
+    right: -60px;
     transform: rotate(-15deg);
     filter: drop-shadow(-8px 1px 11px rgba(0, 0, 0, 0.75));
     opacity: 0;
@@ -179,8 +179,8 @@
 
 .helm {
     position: absolute;
-    top: 12vh;
-    left: 1.8vw;
+    top: 90px;
+    left: 13px;
     rotate: -11deg;
     width: 150px;
     opacity: 1;
@@ -209,4 +209,112 @@
     opacity: 0;
     transition-duration: 1s;
 
+}
+
+@media (max-width: 680px) {
+    .photo {
+        transform: rotate(100deg);
+        height: 180vh;
+        width: 250px;
+        top: -35vh;
+    }
+    .helm {
+        rotate: -11deg;
+    }
+    .my-photo {
+        transform: rotate(-100deg);
+        top: 400px;
+            right: -7vw;
+            width: 280px;
+    }
+    @keyframes slidein {
+        0% {
+            right: -180vw;
+            top: -20vh;
+    
+        }
+    
+        50% {
+            right: 60vw;
+            top: -70vh;
+    
+        }
+    
+        99% {
+            top: -63vh;
+            right: 5vw;
+            background-image: url("https://th.bing.com/th/id/R.820a73d10d3abb6127bf26943b9af729?rik=37CBXK2A4X5IAA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-RGupX7_-RiU%2fUtMUv2DXzkI%2fAAAAAAAAAus%2fMsEnw1ns71I%2fs1600%2fRayo.gif&ehk=%2bts6txe6KPyTi7u5HwJnNABm%2feAKk6jcaHOWvhb93is%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+        }
+        100% {
+            top: -63vh;
+            right: 5vw;
+            background-image: none;
+        }
+    }
+    .helm {
+
+        top: 506px;
+        left: 6.8vw;
+        rotate: -98deg;
+        width: 110px;
+
+    }
+    .contact {
+        margin-top: 110vh;
+        margin-left: -80px;
+        transform: rotate(-100deg);
+
+    }
+    .contacts {
+        margin-top: -65px;
+        transform: rotate(-100deg);
+    }
+    .me {
+
+        width: 80vw;
+        height: 40vh;
+        margin-left: 5vw;
+        margin-top: 47vh;
+        padding-right: 2vw;
+    }
+    .all-info{
+        position: relative;
+    }
+    @media (min-height: 770px) and (max-height: 860px) {
+        .my-photo {
+            top: 500px;
+        }
+        .helm {
+            top: 606px;
+            left: 6.8vw;
+            rotate: -98deg;
+            width: 110px;
+        }
+        .contact {
+            margin-top: 105vh;
+            margin-left: -80px;
+            transform: rotate(-100deg);
+    
+        }
+        
+    }
+    @media (min-height: 860px) and (max-height: 1000px) {
+        .my-photo {
+            top: 600px;
+        }
+        .helm {
+            top: 706px;
+            left: 6.8vw;
+            rotate: -98deg;
+            width: 110px;
+        }
+        .contact {
+            margin-top: 105vh;
+            margin-left: -80px;
+            transform: rotate(-100deg);
+    
+        }
+        
+    }
 }

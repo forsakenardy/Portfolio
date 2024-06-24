@@ -16,7 +16,7 @@ body {
     }
 
 a {
-    color: rgba(30, 30, 186, 1);
+    color: rgb(48, 48, 237);
     text-decoration: none;
     cursor: url("pictures/cursor-3-Photoroom2.png"), auto;
 }
@@ -109,3 +109,16 @@ h2 {
     background-image: url("https://th.bing.com/th/id/R.9072e6bf51bff972c24408d80a726849?rik=LFmzEIvsg9YsYQ&pid=ImgRaw&r=0");
     background-size: cover;
 }
+
+
+@media (max-width: 680px) {
+    body {
+        overflow-y: auto;
+        height: 200vh;
+        }
+    .header {
+        overflow-x: auto;
+        padding-left: 0;
+    }
+    
+} 
