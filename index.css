@@ -14,6 +14,9 @@ body {
     font-style: normal;
     cursor: url("pictures/cursor-3-Photoroom.png"), auto;
     }
+    .hidden {
+        display: none;
+    }
 
 a {
     color: rgb(48, 48, 237);
@@ -120,6 +123,9 @@ h2 {
     .header {
         overflow-x: auto;
         padding-left: 0;
+    }
+    .header {
+display: none;
     }
     
 } 

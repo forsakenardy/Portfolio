@@ -236,18 +236,18 @@
     
         50% {
             right: 60vw;
-            top: -70vh;
+            top: -80vh;
     
         }
     
         99% {
-            top: -63vh;
+            top: -76vh;
             right: 5vw;
             background-image: url("https://th.bing.com/th/id/R.820a73d10d3abb6127bf26943b9af729?rik=37CBXK2A4X5IAA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-RGupX7_-RiU%2fUtMUv2DXzkI%2fAAAAAAAAAus%2fMsEnw1ns71I%2fs1600%2fRayo.gif&ehk=%2bts6txe6KPyTi7u5HwJnNABm%2feAKk6jcaHOWvhb93is%3d&risl=&pid=ImgRaw&r=0");
             background-size: cover;
         }
         100% {
-            top: -63vh;
+            top: -76vh;
             right: 5vw;
             background-image: none;
         }
@@ -271,15 +271,16 @@
         transform: rotate(-100deg);
     }
     .me {
-        width: 80vw;
-        height: 40vh;
+        width: 90vw;
+        height: 58vh;
         margin-left: 5vw;
-        margin-top: 47vh;
+        margin-top: 30vh;
         padding-right: 2vw;
     }
-    .all-info{
-        position: relative;
-        display: none;
+    .all-info {
+
+        height: 22vh;
+        width: 80vw;
     }
     @media (min-height: 770px) and (max-height: 860px) {
         .my-photo {
