@@ -1,3 +1,6 @@
+html {
+        cursor: url('imagenes/cursor-personalizado.png'), auto;
+}
 body {
     margin: 0;
     padding: 0;
@@ -9,11 +12,13 @@ body {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+    cursor: url("pictures/cursor-3-Photoroom.png"), auto;
+    }
 
 a {
     color: rgba(30, 30, 186, 1);
     text-decoration: none;
+    cursor: url("pictures/cursor-3-Photoroom2.png"), auto;
 }
 
 h1 {
