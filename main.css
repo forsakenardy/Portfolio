@@ -121,12 +121,16 @@ h4 {
 }
 
 .linkedin {
-    width: 25%;
+    width: 50%;
 }
 
-.instagram {
-    width: 12%;
-    height: 55%;
+.git-hub {
+    width: 75%;
+    margin-bottom: 6px;
+}
+.mail {
+    width: 27%;
+    margin-bottom: 6px;
 }
 
 .contact-info>* {
@@ -150,3 +154,8 @@ h4 {
     overflow-y: auto;
     
 }
+.contacts a {
+    display: flex;
+    justify-content: center;
+}
+
