@@ -4,3 +4,4 @@ document.querySelector('.photo').addEventListener('animationend', function() {
 document.querySelector('.photo').addEventListener('animationend', function() {
     this.classList.add('show-contact-info');
 });
+
