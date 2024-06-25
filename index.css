@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-49.gif");
-    background-size: 25%;
+    background-image: url("https://media.giphy.com/media/3o7TKSjZWTpaULQkP6/giphy.gif");
+    background-size: cover;
     color: white;
     overflow: hidden;
     font-family: "Chakra Petch", sans-serif;
@@ -19,7 +19,7 @@ body {
     }
 
 a {
-    color: rgb(48, 48, 237);
+    color: #66FFE4;
     text-decoration: none;
     cursor: url("pictures/cursor-3-Photoroom2.png"), auto;
 }
@@ -46,7 +46,7 @@ h4 {
 
 h2 {
     font-size: 32px;
-    color: rgba(30, 30, 186, 1);
+    color: #66FFE4;
     animation-name: colorOpacity;
     animation-duration: 1.4s;
     animation-fill-mode: forwards;
@@ -58,11 +58,11 @@ h2 {
 
     0%,
     100% {
-        color: rgba(30, 30, 186, 1);
+        color:rgba(102, 255, 228, 1);
     }
 
     50% {
-        color: rgba(30, 30, 186, 0.5);
+        color: rgba(102, 255, 228, 0.3);
     }
 }
 
