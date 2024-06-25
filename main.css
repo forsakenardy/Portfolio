@@ -225,7 +225,7 @@
     }
     @keyframes slidein {
         0% {
-            right: -180vw;
+            right: -250vw;
             top: -45vh;
     
         }
