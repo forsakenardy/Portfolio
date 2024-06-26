@@ -206,6 +206,17 @@
     transition-duration: 1s;
 
 }
+.chain-of-ascension {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.chain-of-ascension img {
+    width: 300px;
+}
 
 @media (max-width: 680px) {
     .photo {
