@@ -151,7 +151,8 @@
 
 .all-info {
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
+    color: white;
     font-style: normal;
     position: fixed;
     height: 50vh;
