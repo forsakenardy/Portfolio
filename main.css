@@ -221,16 +221,13 @@
 
 @media (max-width: 680px) {
     .photo {
-        transform: rotate(100deg);
+        transform: rotate(90deg);
         height: 180vh;
-        width: 250px;
-        top: -35vh;
-    }
-    .helm {
-        rotate: -11deg;
+        width: 240px;
+        top: -55vh;
     }
     .my-photo {
-        transform: rotate(-100deg);
+        transform: rotate(-90deg);
         top: 400px;
             right: -7vw;
             width: 280px;
@@ -241,45 +238,45 @@
     @keyframes slidein {
         0% {
             right: -250vw;
-            top: -45vh;
+            top: -71vh;
     
         }
     
         50% {
             right: 60vw;
-            top: -80vh;
+            top: -71vh;
     
         }
     
         99% {
-            top: -76vh;
+            top: -71vh;
             right: 5vw;
             background-image: url("https://th.bing.com/th/id/R.820a73d10d3abb6127bf26943b9af729?rik=37CBXK2A4X5IAA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-RGupX7_-RiU%2fUtMUv2DXzkI%2fAAAAAAAAAus%2fMsEnw1ns71I%2fs1600%2fRayo.gif&ehk=%2bts6txe6KPyTi7u5HwJnNABm%2feAKk6jcaHOWvhb93is%3d&risl=&pid=ImgRaw&r=0");
             background-size: cover;
         }
         100% {
-            top: -76vh;
+            top: -71vh;
             right: 5vw;
             background-image: none;
         }
     }
     .helm {
 
-        top: 506px;
-        left: 6.8vw;
-        rotate: -98deg;
-        width: 110px;
+        top: 500px;
+        left: 5.5vw;
+        rotate: -87deg;
+        width: 104px;
 
     }
     .contact {
-        margin-top: 100vh;
+        margin-top: 108vh;
         margin-left: -80px;
-        transform: rotate(-100deg);
+        transform: rotate(-90deg);
 
     }
     .contacts {
         margin-top: -65px;
-        transform: rotate(-100deg);
+        transform: rotate(-90deg);
     }
     .me {
         width: 90vw;
@@ -298,15 +295,12 @@
             top: 500px;
         }
         .helm {
-            top: 606px;
-            left: 6.8vw;
-            rotate: -98deg;
-            width: 110px;
+            top: 600px;
         }
         .contact {
             margin-top: 105vh;
             margin-left: -80px;
-            transform: rotate(-100deg);
+            transform: rotate(-90deg);
     
         }
         
@@ -316,15 +310,12 @@
             top: 600px;
         }
         .helm {
-            top: 706px;
-            left: 6.8vw;
-            rotate: -98deg;
-            width: 110px;
+            top: 700px;
         }
         .contact {
             margin-top: 105vh;
             margin-left: -80px;
-            transform: rotate(-100deg);
+            transform: rotate(-90deg);
     
         }
         

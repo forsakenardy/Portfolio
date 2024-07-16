@@ -22,6 +22,7 @@ a {
     color: #66FFE4;
     text-decoration: none;
     cursor: url("pictures/cursor-3-Photoroom2.png"), auto;
+    font-weight: 400;
 }
 
 h1 {
@@ -103,9 +104,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    border: 12px solid;
-    border-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-49.gif") 140 round;
+    min-width: 120px;
+    height: 62px;
+    margin-top: 10px;
+    box-shadow: -1px 5px 69px -15px rgba(102, 255, 228, 1);
 }
 
 .header-links:hover {
