@@ -105,8 +105,8 @@ h2 {
     justify-content: center;
     align-items: center;
     min-width: 120px;
-    height: 62px;
-    margin-top: 10px;
+    height: 8vh;
+    margin-top: 1vh;
     box-shadow: -1px 5px 69px -15px rgba(102, 255, 228, 1);
 }
 
