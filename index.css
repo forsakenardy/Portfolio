@@ -55,6 +55,11 @@ h2 {
     animation-iteration-count: infinite;
 }
 
+.skills-column {
+    column-count: 2;
+    column-gap: 20px;
+}
+
 @keyframes colorOpacity {
 
     0%,
